@@ -20,7 +20,7 @@ namespace SLC_AS_KDWTestScript_1
 		{
 			engine.GenerateInformation("Hello World 4!");
 
-			var order = OrderFactory.CreateOrder("Big Mac");
+			var order = OrderFactory.CreateOrder("JansChange Big Mac");
 			order.Dispatch("Klaas Dewitte");
 		}
 	}
